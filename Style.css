@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: brown;
+    overflow: hidden;
+
+}
+li,a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
+li,a:haver {*/
+/*background-color: chartreuse;*/
+
+}

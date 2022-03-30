@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+  <style>
+    h2{
+        background-color: darkred;
+        margin: 20px;
+        padding: 20px;
+    }
+    label{
+        background-color: aqua;
+    }
+    body
+    {
+        background-color: powderblue;
+        margin: 20px;
+        padding: 20px;
+
+    }
+    input{
+        border-style: dotted;
+        margin: 10px;
+        padding: 10px;
+    }
+
+  </style>
+</head>
+<body>
+<h2>Emobilis Students Registration Form</h2>
+<form>
+    <div style="background-color:yellow;">
+
+  <label for="Fname">First Name</label>
+  <input type="text"id="Fname"><br><br>
+  <label for="Sname">Last Name</label>
+  <input type="text"id="Sname"><br><br>
+        <label for="Gender">Gender</label><br>
+    <label for="male">Male</label>
+    <input type="radio"name="Gender"id="male"value="Male">
+    <label for="female">Female</label>
+        <input type="radio"name="Gender"id="female"value="Female"><br>
+  <label for="Email">Email Adress</label>
+  <input type="email"id="Email"><br><br>
+  <label for="Pass">Password</label>
+  <input type="password"id="Pass"><br><br>
+  <label for="DOB">Date of Birth</label>
+  <input type="date"id="DOB"><br><br>
+    <label for="Select">Course</label>
+    <select id="Select" name="Courses">
+        <option value="MIT">MIT</option>
+        <option value="PHP">PHP</option>
+        <option value="JAVA">JAVA</option>
+        <option value="SQL">SQL</option
+
+        <label for="Text Area"></label>
+        <textarea name="Message" id="Text Area" cols="30" rows="10"></textarea><br><br>
+
+        <label for="Mode of Study">Mode of study</label><br>
+        <input type="checkbox" id="Mode of Study" name="module1" value="FullTime">
+        <label for="Mode of Study">Full Time</label><br>
+        <input type="checkbox" id="module1" name="module2" value="PartTime">
+        <label for="Mode of Study">Part Time</label><br>
+        <input type="checkbox" id="module2" name="module3" value="EveningClass">
+        <label for="Mode of Study">Evening Classes</label><br><br>
+        <input type="submit"value="Register Here">
+        <input type="reset"><br><br>
+        <button type="button" onclick="alert('Thank You For Enrolling With Us!')">Click Me!</button>
+
+
+</form>
+
+</body>
+</html>
